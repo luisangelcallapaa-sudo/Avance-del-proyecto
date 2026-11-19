@@ -3,63 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taekwondo Potosí</title>
-    <meta name="description" content="Pagina independiente de difusion del taekwondo en Potosí, Bolivia.">
-    <link rel="stylesheet" href="../css/style.css">
+    <title>Taekwondo Potosí | Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h2>Taekwondo <span>Potosí</span></h2>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">
+                <span class="brand-badge">TK</span>
+                <span class="brand-name">TAEKWONDO POTOSÍ</span>
+            </a>
+            <input type="checkbox" id="menu-check" class="menu-check">
+            <label for="menu-check" class="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="pages/institucion.html">Institución</a></li>
+                    <li><a href="pages/modalidades.html">Modalidades</a></li>
+                    <li><a href="pages/clubes.html">Clubes</a></li>
+                    <li><a href="pages/competencias.html">Competencias</a></li>
+                    <li><a href="pages/galeria.html">Galeria</a></li>
+                    <li><a href="pages/noticias.html">Noticias</a></li>
+                    <li><a href="pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="pages/institucion.html">Institucion</a>
-            <a href="pages/modalidades.html">Modalidades</a>
-            <a href="pages/clubes.html">Clubes</a>
-            <a href="pages/competencias.html">Competencias</a>
-            <a href="pages/noticias.html">Noticias</a>
-            <a href="pages/galeria.html">Galeria</a>
-            <a href="pages/contacto.html">Contacto</a>
-        </nav>
     </header>
     <main>
-        <section id="portada">
-            <div class="portada-contenido">
-            <p>Espiritu indomable</p>
-            <h1>El espiritu del taekwondo vive en Potosí</h1>
-            <p>Conoce nuestra comunidad deportiva, sus clubes, competencias, actividades</p>
-            <a href="pages/modalidades.html">
-                Conoce nuestro deporte
-            </a>
-        </section>
-        <section id="presentacion">
-            <h2>Taekwondo en Potosí</h2>
-            <p>Un espacio dedicado a promover y difundir el taekwondo en la Villa Imperial, compartiendo informacion sobre sus actividades y comunidad deportiva.</p>
-        </section>
-        <section id="secciones">
-            <h2>Explora nuestro contenido.</h2>
-            <div class="contenedor-tarjeta">
-                <article class="tarjeta">
-                    <h3>Modalidades</h3>
-                    <p>
-                        Conoce las disciplinas del taekwondo
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="container hero-content">
+                    <p class="hero-kicker">ESPÍRITU INDOMABLE.</p>
+                    <h1>El espíritu del Taekwondo vive en Potosí</h1>
+                    <p class="hero-description">
+                        Un espacio para compartir el desarrollo del Taekwondo potosino y conectar a quienes forman parte de su comunidad deportiva.
                     </p>
-                    <a href="pages/modalidades.html">
-                        Ver más..
-                    </a>
-                </article>
-                <article class="tarjeta">
-                    <h3>Competencias</h3>
-                    <p>Conoce los torneos y resultados deportivos.</p>
-                    <a href="pages/competencias.html">
-                        Ver competencias...
-                    </a>
-                </article>
-                <article class="tarjeta">
-                    <h3>Mantente informado sobre las noticias</h3>
-                    <p></p>
-                </article>
+                    <div class="hero-actions">
+                        <a href="pages/institucion.html" class="btn-primary">Conoce nuestro deporte</a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
