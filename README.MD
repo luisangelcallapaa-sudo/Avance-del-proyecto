@@ -9,3 +9,5 @@
 8. Por último agregamos `@media` para que la página sea adaptable y se vea bien tanto en pantallas grandes de computadora como en celulares.
 9. Se desarrolló la página de galería usando las etiquetas <video> y <source> para reproducir videos locales de entrenamientos con portada (poster), además de tarjetas con <figure>, <figcaption> y etiquetas flotantes para destacar las competencias.
 10. Por último agregamos @media (a 900px para tablet y 600px para celular) para que toda la página sea adaptable y se vea bien tanto en pantallas grandes de computadora como en dispositivos móviles.
+11. Se finalizó la página de contacto con los datos de ubicación y redes sociales en Potosí junto a un formulario estilizado (`<form>`, `<label>`, `<input>`, `<textarea>` y `<button>`), además de un `<footer>` común para todas las páginas del sitio.
+12. Por último agregamos `@media` (a `900px` para tablet y `600px` para celular) en cada sección para que toda la página sea adaptable y se vea bien tanto en pantallas grandes de computadora como en dispositivos móviles tablets.
